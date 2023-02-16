@@ -11,7 +11,7 @@ docker commit basenodejsmage
 
 
 //Now saving base python to dpstrip repository
-docker tag basepython dpstrip/basenodejs
+docker tag basenodejs dpstrip/basenodejs
 
 //docker login
 docker login
