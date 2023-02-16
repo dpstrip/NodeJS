@@ -1,7 +1,7 @@
 {
     "name":"NodeJS Dev Env",
     
-    "image":"basenodejs",
+    "image":"dpstrip/basenodejs",
 
     "customizations": {
         "vscode":{
