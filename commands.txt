@@ -1,0 +1,17 @@
+//Build base Container and name it Base Python
+docker build -t basenodejs .
+
+//Run the Container in interactinve mode and run a bash shell
+docker run -it --rm --name basenodejsmage basenodejs /bin/bash
+
+
+//This is save the container as an basenodejsmage
+docker commit basenodejsmage 
+
+
+
+//Now saving base python to dpstrip repository
+docker tag basepython dpstrip/basenodejsmage
+
+//docker login
+docker push dpstrip/basenodejsmage

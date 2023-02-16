@@ -1,0 +1,14 @@
+{
+    "name":"NodeJS Dev Env",
+    
+    "image":"basenodejs",
+
+    "customizations": {
+        "vscode":{
+            "extensions":["waderyan.nodejs-extension-pack"]
+        }
+    },
+
+    "forwardPorts": [3000]
+
+}
