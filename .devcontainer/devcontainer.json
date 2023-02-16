@@ -5,7 +5,7 @@
 
     "customizations": {
         "vscode":{
-            "extensions":["waderyan.nodejs-extension-pack"]
+            "extensions":["waderyan.nodejs-extension-pack","donjayamanne.git-extension-pack"]
         }
     },
 
